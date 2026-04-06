@@ -42,7 +42,7 @@ Open [http://localhost:5173]
 ---
 
 ## Project Structure
-
+```plaintext
 src/
 ├── components/
 │   ├── Card.jsx
@@ -63,7 +63,7 @@ src/
 │   └── helpers.js
 ├── App.jsx
 └── main.jsx
-
+```
 ---
 
 ## Screenshots
