@@ -1,16 +1,84 @@
-# React + Vite
+# Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, interactive finance dashboard built with React for tracking personal financial activity. Built as part of a Frontend Developer Intern assignment.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [finance-dashboard-alpha-liard.vercel.app](https://finance-dashboard-r3mgfg9qa-gopikas-projects-d9b21618.vercel.app/insights)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 18** + React Router v6
+- **Tailwind CSS v4**
+- **Recharts** — data visualization
+- **Vite** — build tool
+- **localStorage** — data persistence
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Dashboard with balance, income, and expense summary cards
+- Line chart for balance trend and donut chart for spending breakdown
+- Transactions table with search, filter by type, and sort by date or amount
+- Add, edit, and delete transactions (Admin only)
+- Role-based UI — Viewer and Admin with password-protected access
+- Insights — top spending category, monthly comparison, and spending observations
+- Dark mode with preference saved across sessions
+- Export transactions as CSV
+- Fully responsive across screen sizes
+
+---
+## Getting Started
+```bash
+git clone https://github.com/Gopika-s-34/finance-dashboard.git
+cd finance-dashboard
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173]
+
+---
+
+## Project Structure
+
+src/
+├── components/
+│   ├── Card.jsx
+│   ├── Charts.jsx
+│   ├── Header.jsx
+│   ├── Sidebar.jsx
+│   └── Breadcrumbs.jsx
+├── context/
+│   └── AppContext.jsx
+├── data/
+│   └── mockData.js
+├── pages/
+│   ├── Dashboard.jsx
+│   ├── Transactions.jsx
+│   ├── Insights.jsx
+│   └── LoginPage.jsx
+├── utils/
+│   └── helpers.js
+├── App.jsx
+└── main.jsx
+
+---
+
+## Screenshots
+
+### Dashboard — Light Mode
+![Dashboard Light](screenshots/dashboard-light.png)
+
+### Dashboard — Dark Mode
+![Dashboard Dark](screenshots/dashboard-dark.png)
+
+### Transactions — Admin View
+![Transactions Admin](screenshots/transactions-admin.png)
+
+### Insights
+![Insights](screenshots/insights.png)
+
+### Login
+![Login](screenshots/login.png)
