@@ -2,7 +2,7 @@
 
 A clean, interactive finance dashboard built with React for tracking personal financial activity. Built as part of a Frontend Developer Intern assignment.
 
-🔗 **Live Demo**: [finance-dashboard-alpha-liard.vercel.app](https://finance-dashboard-r3mgfg9qa-gopikas-projects-d9b21618.vercel.app/insights)
+🔗 **Live Demo**: [finance-dashboard-alpha-liard.vercel.app](https://finance-dashboard-r3mgfg9qa-gopikas-projects-d9b21618.vercel.app)
 
 ---
 
